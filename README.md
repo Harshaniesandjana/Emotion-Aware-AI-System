@@ -12,13 +12,18 @@ vervangen kan worden door een echt getraind model (bijv. FER+, Mini-Xception, et
 
 ## Installatie
 
-```bash
-git clone https://github.com/<jouw-gebruikersnaam>/emotion-aware-ai-system.git
-cd emotion-aware-ai-system
-python -m venv .venv
+# bash
+`git clone https://github.com/<jouw-gebruikersnaam>/emotion-aware-ai-system.git`
+`cd emotion-aware-ai-system`
+`python -m venv .venv`
 # Windows:
-.\.venv\Scripts\activate
+`.\.venv\Scripts\activate`
 # macOS/Linux:
-source .venv/bin/activate
+`source .venv/bin/activate`
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
+
+
+## Runnen van de codes
+- Runnen (real-time webcam): `python main.py`
+- Runnen (Streamlit web-UI): `streamlit run ui.py`
